@@ -68,3 +68,6 @@ Route::get('/tarefas', function () {
     	'tarefas'=>$tarefas
     ]);
 });
+
+
+Route::get('/', 'app\Http\Controllers\PortalController@index');
